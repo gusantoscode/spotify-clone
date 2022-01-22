@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+:root {
+  --main-green-color: rgb(30, 215, 96);
+  --main-green-color-highlight: rgb(45, 226, 109);
+  --main-blue-color: rgb(41, 65, 171);
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.header {
+  background-color: rgb(0, 0, 0);
+  height: 80px;
+  width: 100%;
+}
+
+.header .spotify-icon {
+  display: flex;
+  position: absolute;
+  padding: 20px 17px;
+  margin-left: 174.6px;
+  margin-right: auto;
+}
+
+.header .items {
+  width: 492.08px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: 174.6px;
+  padding: 30px 17px;
+}
+
+.header .items li {
+  list-style: none;
+}
+
+.header .items li:hover {
+  color: var(--main-green-color);
+}
+
+.header .items #separator:hover {
+  color: #ffffff;
+}
+
+.header .items li a {
+  font-weight: 550;
+  text-decoration: none;
+  color: unset;
+}
+
+.main {
+  background-image: url("/assets/images/background.svg");
+  background-color: var(--main-blue-color);
+  background-size: 175%;
+  background-position: 46% 4%;
+  height: 846px;
+}
+
+.main .content .main-title #title {
+  text-indent: -3.3em;
+  text-align: center;
+  padding: 200px 0px 0px 200px;
+  letter-spacing: -8px;
+  font-size: 156px;
+  color: var(--main-green-color);
+  line-height: 166px;
+}
+
+.main .content .main-title #subtitle {
+  color: var(--main-green-color);
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  text-indent: -5em;
+  padding-top: 40px;
+}
+
+.main .content .download-button {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 1cm;
+}
+
+.main .content .download-button a {
+  color: var(--main-blue-color);
+  text-decoration: none;
+  border-radius: 500px;
+  padding: 14px 32px;
+  background: var(--main-green-color);
+  font-weight: 550;
+}
+
+.main .content .download-button a:hover {
+  padding: 15px 34px;
+  background-color: var(--main-green-color-highlight);
+}
+
+.footer {
+  background-color: black;
+  height: 500px;
+  padding: 80px 0px 80px;
+}
+
+.footer .navbar-footer {
+  display: flex;
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.footer .navbar-footer .details {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 60px;
+}
+
+.footer .navbar-footer .details dl {
+  display: block;
+  padding: 0px 50px;
+}
+
+.footer .navbar-footer .details dt {
+  margin: 20px 0px;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  color: #919496;
+  text-transform: uppercase;
+}
+
+.footer .navbar-footer .details dd {
+  padding: 3px 0 15px;
+}
+
+.footer .navbar-footer .details a {
+  text-decoration: none;
+  color: unset;
+}
+
+.footer .navbar-footer .details a:hover {
+  color: var(--main-green-color);
+}
+
+.footer .navbar-footer .spotify-icon {
+  width: 150px;
+}
+
+.footer .navbar-footer .social-medea .social-icons {
+  display: flex;
+  flex-direction: row;
+  width: 380px;
+  padding: 25px 0px;
+  justify-content: right;
+}
+
+.footer .navbar-footer .social-medea .social-icons li {
+  list-style: none;
+  width: 54px;
+  height: 54px;
+  border-radius: 100%;
+  margin-right: 15px;
+  background-color: #222326;
+}
+
+.footer .navbar-footer .social-medea .social-icons .links-footer-icons .icons .icons-svg {
+  border-radius: 100%;
+  width: 28px;
+  height: 28px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 13px;
+}
+
+.footer .country-select {
+  display: flex;
+  width: 1170px;
+  margin: 0 auto;
+  justify-content: right;
+}
+
+.footer .country-select a {
+  margin: 0px 15px;
+}
+
+.footer .country-select .country #country-name {
+  font-size: 12px;
+  color: rgb(145, 148, 150);
+}
+
+.footer .country-select .country #country-name:hover {
+  color: var(--main-green-color);
+}
+
+.footer .footer-bottom-links {
+  display: flex;
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.footer .footer-bottom-links .links-bottom {
+  display: flex;
+  justify-content: left;
+}
+
+.footer .footer-bottom-links .links-bottom li {
+  list-style: none;
+  padding: 0px 0px 0px 15px;
+  font-size: 12px;
+  color: rgb(145, 148, 150);
+}
+
+.footer .footer-bottom-links .links-bottom li:hover {
+  color: var(--main-green-color);
+}
+
+.footer .footer-bottom-links .copy {
+    font-size: 12px;
+    padding: 0 15px;
+    color: rgb(145, 148, 150);
+    margin-left: auto;
+    padding-bottom: 50px;
+}
