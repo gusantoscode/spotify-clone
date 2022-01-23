@@ -180,13 +180,17 @@ body {
   background-color: #222326;
 }
 
-.footer .navbar-footer .social-medea .social-icons .links-footer-icons .icons .icons-svg {
+.footer .navbar-footer .social-medea .social-icons .links-footer-icons svg {
   border-radius: 100%;
   width: 28px;
   height: 28px;
   display: block;
   margin: 0 auto;
   margin-top: 13px;
+}
+
+.footer .navbar-footer .social-medea .social-icons .links-footer-icons svg:hover {
+  fill: var(--main-green-color);
 }
 
 .footer .country-select {
